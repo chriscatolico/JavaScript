@@ -26,7 +26,7 @@ filter_table.on("click", function() {
         var filteredData = tableData.filter(event => event.city == inputValue2.toLowerCase())
     } else {
         var filteredData = tableData.filter(event => event.datetime == inputValue1)
-    }
+    };
         
     // Get a reference to the table body
     var tbody = d3.select("tbody");
