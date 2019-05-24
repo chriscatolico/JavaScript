@@ -1,8 +1,6 @@
 // from data.js
 var tableData = data;
 
-// YOUR CODE HERE!
-
 
 var filter_table = d3.select("#filter-btn");
 
